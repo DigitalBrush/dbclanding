@@ -1,0 +1,36 @@
+{
+  "name": "dbc-landing",
+  "version": "1.0.2",
+  "description": "Digital Brush landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalBrush/dbclanding.git"
+  },
+  "author": "Titus Nderitu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalBrush/dbclanding/issues"
+  },
+  "homepage": "https://github.com/DigitalBrush/dbclanding#readme",
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.1",
+    "gulp-clean-css": "4.3.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0",
+    "bootstrap": "4.5.0",
+    "jquery": "3.5.1",
+    "jquery.easing": "^1.4.1",
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "popper.js": "^1.16.0"
+  }
+}
